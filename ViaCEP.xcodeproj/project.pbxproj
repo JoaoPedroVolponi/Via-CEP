@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		582DEAD22CB36D2700DBC7FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582DEAB32CB36D2500DBC7FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582DEABA2CB36D2500DBC7FD;
+			remoteInfo = ViaCEP;
+		};
+		582DEADC2CB36D2700DBC7FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582DEAB32CB36D2500DBC7FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582DEABA2CB36D2500DBC7FD;
+			remoteInfo = ViaCEP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		582DEABB2CB36D2500DBC7FD /* ViaCEP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViaCEP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		582DEAD12CB36D2700DBC7FD /* ViaCEPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViaCEPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		582DEADB2CB36D2700DBC7FD /* ViaCEPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViaCEPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		582DEAE32CB36D2700DBC7FD /* Exceptions for "ViaCEP" folder in "ViaCEP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 582DEABA2CB36D2500DBC7FD /* ViaCEP */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		582DEABD2CB36D2500DBC7FD /* ViaCEP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				582DEAE32CB36D2700DBC7FD /* Exceptions for "ViaCEP" folder in "ViaCEP" target */,
+			);
+			path = ViaCEP;
+			sourceTree = "<group>";
+		};
+		582DEAD42CB36D2700DBC7FD /* ViaCEPTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViaCEPTests;
+			sourceTree = "<group>";
+		};
+		582DEADE2CB36D2700DBC7FD /* ViaCEPUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViaCEPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582DEAB82CB36D2500DBC7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DEACE2CB36D2700DBC7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DEAD82CB36D2700DBC7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582DEAB22CB36D2500DBC7FD = {
+			isa = PBXGroup;
+			children = (
+				582DEABD2CB36D2500DBC7FD /* ViaCEP */,
+				582DEAD42CB36D2700DBC7FD /* ViaCEPTests */,
+				582DEADE2CB36D2700DBC7FD /* ViaCEPUITests */,
+				582DEABC2CB36D2500DBC7FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582DEABC2CB36D2500DBC7FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582DEABB2CB36D2500DBC7FD /* ViaCEP.app */,
+				582DEAD12CB36D2700DBC7FD /* ViaCEPTests.xctest */,
+				582DEADB2CB36D2700DBC7FD /* ViaCEPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582DEABA2CB36D2500DBC7FD /* ViaCEP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582DEAE42CB36D2700DBC7FD /* Build configuration list for PBXNativeTarget "ViaCEP" */;
+			buildPhases = (
+				582DEAB72CB36D2500DBC7FD /* Sources */,
+				582DEAB82CB36D2500DBC7FD /* Frameworks */,
+				582DEAB92CB36D2500DBC7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				582DEABD2CB36D2500DBC7FD /* ViaCEP */,
+			);
+			name = ViaCEP;
+			packageProductDependencies = (
+			);
+			productName = ViaCEP;
+			productReference = 582DEABB2CB36D2500DBC7FD /* ViaCEP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		582DEAD02CB36D2700DBC7FD /* ViaCEPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582DEAE92CB36D2700DBC7FD /* Build configuration list for PBXNativeTarget "ViaCEPTests" */;
+			buildPhases = (
+				582DEACD2CB36D2700DBC7FD /* Sources */,
+				582DEACE2CB36D2700DBC7FD /* Frameworks */,
+				582DEACF2CB36D2700DBC7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582DEAD32CB36D2700DBC7FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				582DEAD42CB36D2700DBC7FD /* ViaCEPTests */,
+			);
+			name = ViaCEPTests;
+			packageProductDependencies = (
+			);
+			productName = ViaCEPTests;
+			productReference = 582DEAD12CB36D2700DBC7FD /* ViaCEPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		582DEADA2CB36D2700DBC7FD /* ViaCEPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582DEAEC2CB36D2700DBC7FD /* Build configuration list for PBXNativeTarget "ViaCEPUITests" */;
+			buildPhases = (
+				582DEAD72CB36D2700DBC7FD /* Sources */,
+				582DEAD82CB36D2700DBC7FD /* Frameworks */,
+				582DEAD92CB36D2700DBC7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582DEADD2CB36D2700DBC7FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				582DEADE2CB36D2700DBC7FD /* ViaCEPUITests */,
+			);
+			name = ViaCEPUITests;
+			packageProductDependencies = (
+			);
+			productName = ViaCEPUITests;
+			productReference = 582DEADB2CB36D2700DBC7FD /* ViaCEPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582DEAB32CB36D2500DBC7FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					582DEABA2CB36D2500DBC7FD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					582DEAD02CB36D2700DBC7FD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 582DEABA2CB36D2500DBC7FD;
+					};
+					582DEADA2CB36D2700DBC7FD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 582DEABA2CB36D2500DBC7FD;
+					};
+				};
+			};
+			buildConfigurationList = 582DEAB62CB36D2500DBC7FD /* Build configuration list for PBXProject "ViaCEP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582DEAB22CB36D2500DBC7FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 582DEABC2CB36D2500DBC7FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582DEABA2CB36D2500DBC7FD /* ViaCEP */,
+				582DEAD02CB36D2700DBC7FD /* ViaCEPTests */,
+				582DEADA2CB36D2700DBC7FD /* ViaCEPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582DEAB92CB36D2500DBC7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DEACF2CB36D2700DBC7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DEAD92CB36D2700DBC7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582DEAB72CB36D2500DBC7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DEACD2CB36D2700DBC7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DEAD72CB36D2700DBC7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582DEAD32CB36D2700DBC7FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582DEABA2CB36D2500DBC7FD /* ViaCEP */;
+			targetProxy = 582DEAD22CB36D2700DBC7FD /* PBXContainerItemProxy */;
+		};
+		582DEADD2CB36D2700DBC7FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582DEABA2CB36D2500DBC7FD /* ViaCEP */;
+			targetProxy = 582DEADC2CB36D2700DBC7FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		582DEAE52CB36D2700DBC7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViaCEP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaopedrovolponi.ViaCEP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		582DEAE62CB36D2700DBC7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViaCEP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaopedrovolponi.ViaCEP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		582DEAE72CB36D2700DBC7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		582DEAE82CB36D2700DBC7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582DEAEA2CB36D2700DBC7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaopedrovolponi.ViaCEPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViaCEP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViaCEP";
+			};
+			name = Debug;
+		};
+		582DEAEB2CB36D2700DBC7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaopedrovolponi.ViaCEPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViaCEP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViaCEP";
+			};
+			name = Release;
+		};
+		582DEAED2CB36D2700DBC7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaopedrovolponi.ViaCEPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViaCEP;
+			};
+			name = Debug;
+		};
+		582DEAEE2CB36D2700DBC7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaopedrovolponi.ViaCEPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViaCEP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582DEAB62CB36D2500DBC7FD /* Build configuration list for PBXProject "ViaCEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582DEAE72CB36D2700DBC7FD /* Debug */,
+				582DEAE82CB36D2700DBC7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582DEAE42CB36D2700DBC7FD /* Build configuration list for PBXNativeTarget "ViaCEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582DEAE52CB36D2700DBC7FD /* Debug */,
+				582DEAE62CB36D2700DBC7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582DEAE92CB36D2700DBC7FD /* Build configuration list for PBXNativeTarget "ViaCEPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582DEAEA2CB36D2700DBC7FD /* Debug */,
+				582DEAEB2CB36D2700DBC7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582DEAEC2CB36D2700DBC7FD /* Build configuration list for PBXNativeTarget "ViaCEPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582DEAED2CB36D2700DBC7FD /* Debug */,
+				582DEAEE2CB36D2700DBC7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582DEAB32CB36D2500DBC7FD /* Project object */;
+}
