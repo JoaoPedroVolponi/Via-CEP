@@ -34,10 +34,10 @@ class HomeViewModel: HomeViewModelProtocol {
 
             do {
                 if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
-                    let logradouro = json["logradouro"] as? String ?? "N/A"
-                    let bairro = json["bairro"] as? String ?? "N/A"
-                    let cidade = json["localidade"] as? String ?? "N/A"
-                    let estado = json["uf"] as? String ?? "N/A"
+                    let logradouro = json["logradouro"] as? String ?? ""
+                    let bairro = json["bairro"] as? String ?? ""
+                    let cidade = json["localidade"] as? String ?? ""
+                    let estado = json["uf"] as? String ?? ""
 
                     completion(.success((logradouro, bairro, cidade, estado)))
                 }
