@@ -13,7 +13,22 @@ class HomeView: UIView, UITextFieldDelegate {
     
     private let viewController: HomeViewController
     
-    let cepTextField: UITextField = {
+    lazy var imageLogo: UIImageView = {
+        let image = UIImageView()
+        image.translatesAutoresizingMaskIntoConstraints = false
+        image.image = UIImage(named: "ilustration-home")
+        return image
+    }()
+    
+    lazy var imageBack: UIImageView = {
+        let image = UIImageView()
+        image.translatesAutoresizingMaskIntoConstraints = false
+        image.image = UIImage(named: "background")
+        return image
+    }()
+    
+    
+    lazy var cepTextField: UITextField = {
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "Digite o CEP"
@@ -22,33 +37,36 @@ class HomeView: UIView, UITextFieldDelegate {
         return textField
     }()
     
-    let buscarButton: UIButton = {
+    lazy var buscarButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Buscar Endereço", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(buscarCEP), for: .touchUpInside)
+        button.backgroundColor = UIColor(named: "primary")
+        button.layer.cornerRadius = 12
+        button.setTitleColor(.white, for: .normal)
         return button
     }()
     
-    let logradouroLabel: UILabel = {
+    lazy var logradouroLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
-    let bairroLabel: UILabel = {
+    lazy var bairroLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
-    let cidadeLabel: UILabel = {
+    lazy var cidadeLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
-    let estadoLabel: UILabel = {
+    lazy var estadoLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -72,34 +90,52 @@ class HomeView: UIView, UITextFieldDelegate {
     }
     
     func configHierarchy() {
+        addSubview(imageLogo)
         addSubview(cepTextField)
         addSubview(buscarButton)
         addSubview(logradouroLabel)
         addSubview(bairroLabel)
         addSubview(cidadeLabel)
         addSubview(estadoLabel)
+        addSubview(imageBack)
     }
     
     func configConstraints() {
         NSLayoutConstraint.activate([
-            cepTextField.centerXAnchor.constraint(equalTo: centerXAnchor),
-            cepTextField.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 50),
+            imageLogo.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 10),
+            imageLogo.centerXAnchor.constraint(equalTo: centerXAnchor),
+            imageLogo.heightAnchor.constraint(equalToConstant: 254),
+            imageLogo.widthAnchor.constraint(equalToConstant: 284),
+            
+            cepTextField.topAnchor.constraint(equalTo: imageLogo.bottomAnchor, constant: 10),
+            cepTextField.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 50),
+            cepTextField.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -50),
             cepTextField.widthAnchor.constraint(equalToConstant: 200),
             
-            buscarButton.centerXAnchor.constraint(equalTo: centerXAnchor),
             buscarButton.topAnchor.constraint(equalTo: cepTextField.bottomAnchor, constant: 20),
+            buscarButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 50),
+            buscarButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -50),
+            buscarButton.widthAnchor.constraint(equalToConstant: 230),
             
-            logradouroLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             logradouroLabel.topAnchor.constraint(equalTo: buscarButton.bottomAnchor, constant: 20),
+            logradouroLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 50),
+            logradouroLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -50),
             
-            bairroLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             bairroLabel.topAnchor.constraint(equalTo: logradouroLabel.bottomAnchor, constant: 10),
+            bairroLabel.leadingAnchor.constraint(equalTo: logradouroLabel.leadingAnchor),
+            bairroLabel.trailingAnchor.constraint(equalTo: logradouroLabel.trailingAnchor),
             
-            cidadeLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             cidadeLabel.topAnchor.constraint(equalTo: bairroLabel.bottomAnchor, constant: 10),
+            cidadeLabel.leadingAnchor.constraint(equalTo: logradouroLabel.leadingAnchor),
+            cidadeLabel.trailingAnchor.constraint(equalTo: logradouroLabel.trailingAnchor),
             
-            estadoLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
-            estadoLabel.topAnchor.constraint(equalTo: cidadeLabel.bottomAnchor, constant: 10)
+            estadoLabel.topAnchor.constraint(equalTo: cidadeLabel.bottomAnchor, constant: 10),
+            estadoLabel.leadingAnchor.constraint(equalTo: logradouroLabel.leadingAnchor),
+            estadoLabel.trailingAnchor.constraint(equalTo: logradouroLabel.trailingAnchor),
+            
+            imageBack.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -1),
+            imageBack.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 1),
+            imageBack.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -1),
         ])
     }
     
