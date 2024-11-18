@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "background.pdf",
       "idiom" : "universal"
     }
   ],
