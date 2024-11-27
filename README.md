@@ -16,7 +16,7 @@
 
 |       🍏       |              SplashScreen               |              Home              | Home                           |
 | :------------: | :----------------------------------------: | :---------------------------------------: | -------------------------------------- |
-| Telas | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/via-cep/splashScreen.png" width="220px;" height="400" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/via-cep/home.png" width="220px;" height="400" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/via-cep/homeFull.png" width="220px;" height="400" /> |
+| Telas | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/via-cep/splashScreen.png" width="220px;" height="400" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/via-cep/home.png" width="220px;" height="400" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/via-cep/homeFull.png" width="220px;" height="400" /> |
 ## ✨ Autor
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
